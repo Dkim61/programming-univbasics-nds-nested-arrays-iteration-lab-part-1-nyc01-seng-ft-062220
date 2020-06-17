@@ -4,7 +4,7 @@
 
 def find_even_values(src)
   count = 0 
-    while count < src.legth do
+    while count < src.length do
       count_in_aoa = 0 
         while count_in_aoa < src[count].length do
           if (src[count][count_in_aoa] % 2 == 0)
